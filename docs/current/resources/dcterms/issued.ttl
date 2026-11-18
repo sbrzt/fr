@@ -5,6 +5,6 @@
 dcterms:issued a owl:DatatypeProperty ;
     rdfs:label "has date issued"@en ;
     rdfs:comment "Date of formal issuance of the resource."@en ;
-    rdfs:isDefinedBy dcterms: ;
+    rdfs:isDefinedBy <http://purl.org/dc/terms> ;
     rdfs:range rdfs:Literal .
 

@@ -1,10 +1,10 @@
-_:n9c657879f3764d7ab23fbcd28e5e18c1b7 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/datacite/usesIdentifierScheme> .
-_:n9c657879f3764d7ab23fbcd28e5e18c1b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:n9c657879f3764d7ab23fbcd28e5e18c1b6 <http://www.w3.org/2002/07/owl#onProperty> _:n9c657879f3764d7ab23fbcd28e5e18c1b7 .
 <http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "The identifier scheme used to identify a resource."@en .
-<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#label> "resource identifier scheme"@en .
+_:n603f0fcb08044f14b1cbef2556a51b08b6 <http://www.w3.org/2002/07/owl#onProperty> _:n603f0fcb08044f14b1cbef2556a51b08b7 .
+_:n603f0fcb08044f14b1cbef2556a51b08b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/datacite/IdentifierScheme> .
-_:n9c657879f3764d7ab23fbcd28e5e18c1b6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/datacite/ResourceIdentifier> .
-<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/datacite/> .
-<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n9c657879f3764d7ab23fbcd28e5e18c1b6 .
+<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n603f0fcb08044f14b1cbef2556a51b08b6 .
+<http://purl.org/spar/datacite/ResourceIdentifierScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/datacite> .
+_:n603f0fcb08044f14b1cbef2556a51b08b6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://purl.org/spar/datacite/ResourceIdentifier> .
+_:n603f0fcb08044f14b1cbef2556a51b08b7 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/datacite/usesIdentifierScheme> .

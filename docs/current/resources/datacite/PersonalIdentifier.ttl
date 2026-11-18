@@ -5,7 +5,7 @@
 datacite:PersonalIdentifier a owl:Class ;
     rdfs:label "personal identifier"@en ;
     rdfs:comment "An identifier that uniquely identifies an individual person."@en ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom datacite:PersonalIdentifierScheme ;
             owl:onProperty datacite:usesIdentifierScheme ],

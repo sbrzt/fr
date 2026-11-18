@@ -12,7 +12,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/datacite/"
+        "@id": "http://purl.org/spar/datacite"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -26,18 +26,18 @@
         "@id": "http://purl.org/spar/datacite/IdentifierScheme"
       },
       {
-        "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b6"
+        "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b6"
       }
     ]
   },
   {
-    "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b6",
+    "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b7"
+        "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b7"
       }
     ],
     "http://www.w3.org/2002/07/owl#someValuesFrom": [
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b7",
+    "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b7",
     "http://www.w3.org/2002/07/owl#inverseOf": [
       {
         "@id": "http://purl.org/spar/datacite/usesIdentifierScheme"

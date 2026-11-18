@@ -5,5 +5,5 @@
 bido:CategorialBibliometricData a owl:Class ;
     rdfs:label "categorial bibliometric data"@en ;
     rdfs:comment "Categorical information that characterises publication-related entities from a bibliometric point of view."@en ;
-    rdfs:isDefinedBy bido: .
+    rdfs:isDefinedBy <http://purl.org/spar/bido> .
 

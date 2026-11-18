@@ -6,6 +6,6 @@
 fabio:Expression a owl:Class ;
     rdfs:label "expression"@en ;
     rdfs:comment "A subclass of FRBR Expression, restricted to expressions of `fabio:Work`."@en ;
-    rdfs:isDefinedBy fabio: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fabio> ;
     rdfs:subClassOf frbr:Expression .
 

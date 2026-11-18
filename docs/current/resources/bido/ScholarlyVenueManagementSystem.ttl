@@ -5,5 +5,5 @@
 bido:ScholarlyVenueManagementSystem a owl:Class ;
     rdfs:label "scholarly venue management system"@en ;
     rdfs:comment "A venue management system (such as a conference management system or a journal management system) that can be used for managing scholarly venues."@en ;
-    rdfs:isDefinedBy bido: .
+    rdfs:isDefinedBy <http://purl.org/spar/bido> .
 

@@ -16,7 +16,7 @@ fr:releasedBy a owl:ObjectProperty ;
     """ ;
     rdfs:comment "The relation between a review and the agent publishing it. It might be the author of the review or conference or journal to which the scientific resource was submitted to."@en ;
     rdfs:domain fr:ReviewVersion ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:range foaf:Agent ;
     vs:term_status reg:statusStable .
 

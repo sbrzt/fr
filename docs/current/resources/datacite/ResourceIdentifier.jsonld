@@ -12,7 +12,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/datacite/"
+        "@id": "http://purl.org/spar/datacite"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -23,15 +23,15 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b8"
+        "@id": "http://purl.org/spar/datacite/Identifier"
       },
       {
-        "@id": "http://purl.org/spar/datacite/Identifier"
+        "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b8"
       }
     ]
   },
   {
-    "@id": "_:n9c657879f3764d7ab23fbcd28e5e18c1b8",
+    "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b8",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

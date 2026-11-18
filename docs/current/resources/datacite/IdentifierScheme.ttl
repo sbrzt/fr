@@ -5,5 +5,5 @@
 datacite:IdentifierScheme a owl:Class ;
     rdfs:label "identifier scheme"@en ;
     rdfs:comment "The identifier scheme used to identify an entity such as a funding agency, a person or a resource."@en ;
-    rdfs:isDefinedBy datacite: .
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> .
 

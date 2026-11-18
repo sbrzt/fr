@@ -17,7 +17,7 @@ fr:issuedAt a owl:ObjectProperty ;
     """ ;
     rdfs:comment "The relation between a review and the tracking or scholarly venue management system where the reviewing process took place."@en ;
     rdfs:domain fabio:Review ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:range fr:TrackingSystem ;
     vs:term_status reg:statusStable .
 

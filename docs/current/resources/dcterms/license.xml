@@ -4,8 +4,8 @@
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms"/>
     <rdfs:label xml:lang="en">has license</rdfs:label>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:comment xml:lang="en">A legal document giving official permission to do something with the resource.</rdfs:comment>
   </rdf:Description>

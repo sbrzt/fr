@@ -5,6 +5,6 @@
 bido:DiscreteReviewRatingScale a owl:Class ;
     rdfs:label "discrete review rating scale"@en ;
     rdfs:comment "A discrete scale defining the rating given by a reviewer for a specific scientific contribution."@en ;
-    rdfs:isDefinedBy bido: ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido> ;
     rdfs:subClassOf bido:ReviewRatingScale .
 

@@ -6,6 +6,6 @@
 dcterms:creator a owl:ObjectProperty ;
     rdfs:label "has creator" ;
     rdfs:comment "An entity responsible for making the resource."@en ;
-    rdfs:isDefinedBy dcterms: ;
+    rdfs:isDefinedBy <http://purl.org/dc/terms> ;
     rdfs:range foaf:Agent .
 

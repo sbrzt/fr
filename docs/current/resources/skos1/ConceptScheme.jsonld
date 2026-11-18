@@ -12,7 +12,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.w3.org/2008/05/skos#"
+        "@id": "http://www.w3.org/2008/05/skos"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

@@ -16,7 +16,7 @@ fr:hasRating a owl:ObjectProperty ;
     """ ;
     rdfs:comment "The relation between a review and a given rating assigned by a reviewer."@en ;
     rdfs:domain fr:ReviewVersion ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:range bido:ReviewRatingValue ;
     vs:term_status reg:statusStable .
 

@@ -4,20 +4,20 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b7">
-    <owl:inverseOf rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b6">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b7"/>
-    <owl:someValuesFrom rdf:resource="http://purl.org/spar/datacite/ResourceIdentifier"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/datacite/ResourceIdentifierScheme">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:comment xml:lang="en">The identifier scheme used to identify a resource.</rdfs:comment>
     <rdfs:label xml:lang="en">resource identifier scheme</rdfs:label>
     <rdfs:subClassOf rdf:resource="http://purl.org/spar/datacite/IdentifierScheme"/>
-    <rdfs:subClassOf rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b6"/>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite/"/>
+    <rdfs:subClassOf rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/spar/datacite/ResourceIdentifier"/>
+    <owl:onProperty rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b7">
+    <owl:inverseOf rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
   </rdf:Description>
 </rdf:RDF>

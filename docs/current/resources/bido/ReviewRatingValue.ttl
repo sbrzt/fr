@@ -5,6 +5,6 @@
 bido:ReviewRatingValue a owl:Class ;
     rdfs:label "review rating concept"@en ;
     rdfs:comment "The set of values of a given rating scale."@en ;
-    rdfs:isDefinedBy bido: ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido> ;
     rdfs:subClassOf bido:CategorialBibliometricData .
 

@@ -8,6 +8,6 @@ fabio:hasURL a owl:DatatypeProperty ;
     rdfs:label "has URL"@en ;
     rdfs:comment "An identifier, in form of an HTTP Universal Resource Locator (URL), for a particular resource on the World Wide Web."@en ;
     rdfs:domain frbr:Endeavour ;
-    rdfs:isDefinedBy fabio: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fabio> ;
     rdfs:range xsd:anyURI .
 

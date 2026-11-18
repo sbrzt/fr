@@ -16,7 +16,7 @@ fr:hasSubReviewer a owl:ObjectProperty ;
     """ ;
     rdfs:comment "The relation between a review and agents that have contributed to the overall review as sub-reviwers."@en ;
     rdfs:domain fr:ReviewVersion ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:range foaf:Agent ;
     vs:term_status reg:statusStable .
 

@@ -5,5 +5,5 @@
 literal:Literal a owl:Class ;
     rdfs:label "literal"@en ;
     rdfs:comment "A reified literal."@en ;
-    rdfs:isDefinedBy <http://purl.org/spar/literal/> .
+    rdfs:isDefinedBy <http://purl.org/spar/literal> .
 

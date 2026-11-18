@@ -16,7 +16,7 @@ fr:TrackingSystem a owl:Class ;
 	:my-tracking-system a fr:TrackingSystem .
     """ ;
     rdfs:comment "The platform where the review process takes place."@en ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:subClassOf bido:ScholarlyVenueManagementSystem ;
     vs:term_status reg:statusStable .
 

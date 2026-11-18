@@ -7,7 +7,7 @@
 datacite:Identifier a owl:Class ;
     rdfs:label "identifier"@en ;
     rdfs:comment "An identifier that uniquely identities an entity, such as a funding agency, a person or a resource."@en ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onClass datacite:IdentifierScheme ;
             owl:onProperty datacite:usesIdentifierScheme ;

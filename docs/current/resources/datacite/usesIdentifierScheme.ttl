@@ -6,6 +6,6 @@ datacite:usesIdentifierScheme a owl:ObjectProperty ;
     rdfs:label "uses identifier scheme"@en ;
     rdfs:comment "The identifier scheme used to provide the identifier for an entity (either a funder, a person, a license or a resource)."@en ;
     rdfs:domain datacite:Identifier ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:range datacite:IdentifierScheme .
 

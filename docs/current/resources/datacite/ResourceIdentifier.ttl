@@ -5,7 +5,7 @@
 datacite:ResourceIdentifier a owl:Class ;
     rdfs:label "resource identifier"@en ;
     rdfs:comment "An identifier that is used to uniquely identify a resource."@en ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:allValuesFrom datacite:ResourceIdentifierScheme ;
             owl:onProperty datacite:usesIdentifierScheme ],

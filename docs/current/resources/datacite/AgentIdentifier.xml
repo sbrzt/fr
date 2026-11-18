@@ -7,15 +7,15 @@
   <rdf:Description rdf:about="http://purl.org/spar/datacite/AgentIdentifier">
     <rdfs:label xml:lang="en">agent identifier</rdfs:label>
     <owl:disjointWith rdf:resource="http://purl.org/spar/datacite/ResourceIdentifier"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/datacite/Identifier"/>
-    <rdfs:subClassOf rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b9"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:comment xml:lang="en">An identifier that uniquely identities an individual agent.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite/"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/datacite/Identifier"/>
+    <rdfs:subClassOf rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b9"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b9">
-    <owl:allValuesFrom rdf:resource="http://purl.org/spar/datacite/AgentIdentifier"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b9">
     <owl:onProperty rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/datacite/AgentIdentifier"/>
   </rdf:Description>
 </rdf:RDF>

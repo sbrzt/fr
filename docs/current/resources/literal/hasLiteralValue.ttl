@@ -7,6 +7,6 @@ literal:hasLiteralValue a owl:DatatypeProperty,
     rdfs:label "has literal value"@en ;
     rdfs:comment "The value that a reified literal represents."@en ;
     rdfs:domain literal:Literal ;
-    rdfs:isDefinedBy <http://purl.org/spar/literal/> ;
+    rdfs:isDefinedBy <http://purl.org/spar/literal> ;
     rdfs:range rdfs:Literal .
 

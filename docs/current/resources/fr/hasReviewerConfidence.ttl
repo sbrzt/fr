@@ -16,7 +16,7 @@ fr:hasReviewerConfidence a owl:ObjectProperty ;
     """ ;
     rdfs:comment "Relation between a review and the confidence set by the author about the review topic. As the review can be written only by one author, the confidence is assumed to be for such author about the given paper without need of creating a new class involving the three actors in a n-ary alike solution." ;
     rdfs:domain fr:ReviewVersion ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:range bido:ReviewerConfidenceValue ;
     vs:term_status reg:statusStable .
 

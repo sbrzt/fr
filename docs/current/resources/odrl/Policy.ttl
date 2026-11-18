@@ -5,5 +5,5 @@
 odrl:Policy a owl:Class ;
     rdfs:label "policy"@en ;
     rdfs:comment "A non-empty group of permissions and/or prohibitions."@en ;
-    rdfs:isDefinedBy odrl: .
+    rdfs:isDefinedBy <http://www.w3.org/ns/odrl/2> .
 

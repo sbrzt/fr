@@ -5,6 +5,6 @@
 dcterms:modified a owl:DatatypeProperty ;
     rdfs:label "has date modified"@en ;
     rdfs:comment "Date on which the resource was changed."@en ;
-    rdfs:isDefinedBy dcterms: ;
+    rdfs:isDefinedBy <http://purl.org/dc/terms> ;
     rdfs:range rdfs:Literal .
 

@@ -5,6 +5,6 @@
 fabio:Comment a owl:Class ;
     rdfs:label "comment"@en ;
     rdfs:comment "A verbal or written remark concerning some entity. In written form, a comment is often appended to that entity and termed an annotation. Within computer programs or ontologies, comments are added to enhance human understanding, and are usually prefaced by a special syntactic symbol that ensures they are ignored during execution of the program."@en ;
-    rdfs:isDefinedBy fabio: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fabio> ;
     rdfs:subClassOf fabio:Expression .
 

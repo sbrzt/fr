@@ -19,7 +19,7 @@ fr:ReviewVersion a owl:Class ;
 		fr:releasedBy :my-conference .
     """ ;
     rdfs:comment "A version of a given review, defining its content and rating, which may vary over the time."@en ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:subClassOf fabio:Comment ;
     vs:term_status reg:statusStable .
 

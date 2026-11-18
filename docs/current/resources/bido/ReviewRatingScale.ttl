@@ -6,6 +6,6 @@
 bido:ReviewRatingScale a owl:Class ;
     rdfs:label "review rating scale"@en ;
     rdfs:comment "A scale defining the rating given by a reviewer for a specific scientific contribution."@en ;
-    rdfs:isDefinedBy bido: ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido> ;
     rdfs:subClassOf skos1:ConceptScheme .
 

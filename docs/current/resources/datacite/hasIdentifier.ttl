@@ -6,6 +6,6 @@ datacite:hasIdentifier a owl:InverseFunctionalProperty,
         owl:ObjectProperty ;
     rdfs:label "has identifier"@en ;
     rdfs:comment "A unique identifier for the entity (either a funder, a person, a license or a resource)."@en ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:range datacite:Identifier .
 

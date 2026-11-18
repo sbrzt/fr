@@ -16,7 +16,7 @@ fr:ConveningOrganization a owl:Class ;
 	:my-convening-organization a fr:ConveningOrganization .
     """ ;
     rdfs:comment "A venue (e.g. conference, workshop), a expression collection (e.g. journal, special issue), or an individual agent (e.g. organization, researcher) collecting scientific contributions."@en ;
-    rdfs:isDefinedBy fr: ;
+    rdfs:isDefinedBy <http://purl.org/spar/fr> ;
     rdfs:subClassOf foaf:Agent ;
     vs:term_status reg:statusStable .
 

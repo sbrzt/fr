@@ -4,17 +4,17 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
-  <rdf:Description rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b3">
-    <owl:onProperty rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:allValuesFrom rdf:resource="http://purl.org/spar/datacite/PersonalIdentifierScheme"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/datacite/PersonalIdentifier">
-    <rdfs:subClassOf rdf:nodeID="n9c657879f3764d7ab23fbcd28e5e18c1b3"/>
-    <rdfs:subClassOf rdf:resource="http://purl.org/spar/datacite/AgentIdentifier"/>
-    <rdfs:label xml:lang="en">personal identifier</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:comment xml:lang="en">An identifier that uniquely identifies an individual person.</rdfs:comment>
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite/"/>
+    <rdfs:subClassOf rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b3"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/spar/datacite/AgentIdentifier"/>
+    <rdfs:label xml:lang="en">personal identifier</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b3">
+    <owl:onProperty rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
+    <owl:allValuesFrom rdf:resource="http://purl.org/spar/datacite/PersonalIdentifierScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
   </rdf:Description>
 </rdf:RDF>

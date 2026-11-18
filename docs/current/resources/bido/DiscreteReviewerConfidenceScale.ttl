@@ -5,6 +5,6 @@
 bido:DiscreteReviewerConfidenceScale a owl:Class ;
     rdfs:label "discrete reviewer confidence scale"@en ;
     rdfs:comment "A discrete scale defining the confidence of a reviewer for a given topic."@en ;
-    rdfs:isDefinedBy bido: ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido> ;
     rdfs:subClassOf bido:ReviewerConfidenceScale .
 

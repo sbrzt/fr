@@ -5,7 +5,7 @@
 datacite:AgentIdentifierScheme a owl:Class ;
     rdfs:label "agent identifier scheme"@en ;
     rdfs:comment "The identifier scheme used to identify an agent."@en ;
-    rdfs:isDefinedBy datacite: ;
+    rdfs:isDefinedBy <http://purl.org/spar/datacite> ;
     rdfs:subClassOf [ a owl:Restriction ;
             owl:onProperty [ owl:inverseOf datacite:usesIdentifierScheme ] ;
             owl:someValuesFrom datacite:AgentIdentifier ],

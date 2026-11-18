@@ -5,5 +5,5 @@
 bido:ReviewerConfidenceValue a owl:Class ;
     rdfs:label "reviewer confidence value"@en ;
     rdfs:comment "The set of values of a given confidence scale."@en ;
-    rdfs:isDefinedBy bido: .
+    rdfs:isDefinedBy <http://purl.org/spar/bido> .
 

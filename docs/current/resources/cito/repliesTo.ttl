@@ -5,5 +5,5 @@
 cito:repliesTo a owl:ObjectProperty ;
     rdfs:label "replies to"@en ;
     rdfs:comment "A relation according to which the citing entity replies to statements, ideas or criticisms presented in the cited entity."@en ;
-    rdfs:isDefinedBy cito: .
+    rdfs:isDefinedBy <http://purl.org/spar/cito> .
 

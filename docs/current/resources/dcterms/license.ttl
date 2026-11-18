@@ -5,5 +5,5 @@
 dcterms:license a owl:ObjectProperty ;
     rdfs:label "has license"@en ;
     rdfs:comment "A legal document giving official permission to do something with the resource."@en ;
-    rdfs:isDefinedBy dcterms: .
+    rdfs:isDefinedBy <http://purl.org/dc/terms> .
 

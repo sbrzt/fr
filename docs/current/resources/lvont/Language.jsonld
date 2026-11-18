@@ -12,7 +12,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://lexvo.org/ontology#"
+        "@id": "http://lexvo.org/ontology"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
