@@ -1,0 +1,15 @@
+_:n603f0fcb08044f14b1cbef2556a51b08b11 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n603f0fcb08044f14b1cbef2556a51b08b10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n603f0fcb08044f14b1cbef2556a51b08b11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:n603f0fcb08044f14b1cbef2556a51b08b10 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/datacite/usesIdentifierScheme> .
+_:n603f0fcb08044f14b1cbef2556a51b08b11 <http://www.w3.org/2002/07/owl#onProperty> _:n603f0fcb08044f14b1cbef2556a51b08b12 .
+_:n603f0fcb08044f14b1cbef2556a51b08b10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n603f0fcb08044f14b1cbef2556a51b08b11 .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
+_:n603f0fcb08044f14b1cbef2556a51b08b12 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/spar/datacite/hasIdentifier> .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier that uniquely identities an entity, such as a funding agency, a person or a resource."@en .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/datacite> .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2010/06/literalreification/Literal> .
+_:n603f0fcb08044f14b1cbef2556a51b08b10 <http://www.w3.org/2002/07/owl#onClass> <http://purl.org/spar/datacite/IdentifierScheme> .
+<http://purl.org/spar/datacite/Identifier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n603f0fcb08044f14b1cbef2556a51b08b10 .

@@ -1,0 +1,57 @@
+[
+  {
+    "@id": "http://purl.org/spar/datacite/AgentIdentifierScheme",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "The identifier scheme used to identify an agent."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/datacite"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "agent identifier scheme"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b1"
+      },
+      {
+        "@id": "http://purl.org/spar/datacite/IdentifierScheme"
+      }
+    ]
+  },
+  {
+    "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b2"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/datacite/AgentIdentifier"
+      }
+    ]
+  },
+  {
+    "@id": "_:n603f0fcb08044f14b1cbef2556a51b08b2",
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://purl.org/spar/datacite/usesIdentifierScheme"
+      }
+    ]
+  }
+]

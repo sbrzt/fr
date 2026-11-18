@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b11">
+    <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/spar/datacite/Identifier">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b11"/>
+    <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2010/06/literalreification/Literal"/>
+    <rdfs:subClassOf rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b10"/>
+    <rdfs:label xml:lang="en">identifier</rdfs:label>
+    <rdfs:comment xml:lang="en">An identifier that uniquely identities an entity, such as a funding agency, a person or a resource.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/datacite"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/spar/datacite/usesIdentifierScheme"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://purl.org/spar/datacite/IdentifierScheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n603f0fcb08044f14b1cbef2556a51b08b12">
+    <owl:inverseOf rdf:resource="http://purl.org/spar/datacite/hasIdentifier"/>
+  </rdf:Description>
+</rdf:RDF>
